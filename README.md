@@ -9,7 +9,7 @@ This system is implemented in C++
 
 1.Read the member file and store the member imformation in a suitable data structure, such as using a member c class(FlagMember) to store the name, grade, height, and other imformations, while also recoding their unavailale time for tasks and initialize the task count of each membver to 0.
 
-2.Preprocess the member information and make set(集合) of members.
+2.Preprocess the member information and make set(集合) of members Iterate all the member in the set to set their unvailable times.
 
 3.Filter out all members with a height above 178 from the member set to create a subset of high members. Then, remove this subset from the original member set. This will allow the scheduling process to choose one member with a height above 178 for East-West task execution.
 
@@ -69,7 +69,7 @@ Member Class: Contains attributes such as name, grade, height, available time, a
 
 1. 读取成员文件并将成员信息存储在适当的数据结构中，比如使用一个成员类（FlagMember）来存储姓名、年级、身高等信息，并记录他们不可用的任务时间，同时将每个成员的任务计数初始化为0。
 
-2. 预处理成员信息并创建成员集合。
+2. 预处理成员信息并创建成员集合，并遍历所有成员以设置他们的不可用时间。
 
 3. 从成员集合中筛选出所有身高超过178的成员，创建一个高成员子集。然后，从原始成员集合中移除这个子集。这将使调度过程在东西任务执行时选择一个身高超过178的成员。
 
