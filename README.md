@@ -1,8 +1,93 @@
-#  国旗班升降旗排班系统1.0
-这一个是由C++实现的国旗班智能排班系统的代码项目
+#  WHUT national flag team scheduling system 1.0
+This system is implemented in C++
 
-##  源代码权限说明
-**仅国旗队内部可查阅，修改本程序源代码**
+##  Source code permission statement
+**Only can be viewed or rewrite by Flag team member**
+
+##  Divising approach
+###  To address this problem,we can employ the Greedy Algorithm for scheduling. The Greedy ALgorithms follows the strategy of selecting the locally optimal(最优的) solution at each step, aiming to achieve a globally optimal solution. The specific steps are as follows:
+
+1.Read the member file and store the member imformation in a suitable data structure, such as using a member c class(FlagMember) to store the name, grade, height, and other imformations, while also recoding their unavailale time for tasks and initialize the task count of each membver to 0.
+
+2.Preprocess the member information and make set(集合) of members.
+
+3.Filter out all members with a height above 178 from the member set to create a subset of high members. Then, remove this subset from the original member set. This will allow the scheduling process to choose one member with a height above 178 for East-West task execution.
+
+4.**Greedy Algorithm**
+For each morning and afternoon from Monday to Friday, perform the following three iterations:
+-East-West campus
+First Iteration: For each morning and afternoon of the week, assign one high member from the high member subset who meets the time conditions and has the least taskCount.
+
+Second Iteration: For each morning and afternoon of the week, assign one member from the member set who meets the time conditions and has the least taskCount.
+
+Third Iteration:  For each morning and afternoon of the week, assign one member from the member set who meets the time conditions and has the least taskCount.
+*Check each time slot for the week, and if there are no members from sophomore year or above available (to be implemented)*
+
+when ends,integrate the high member subset into the member set.
+
+-NanJian Lake
+same,but without height limit.
+
+5.Output the resulting schedule.
+
+###  Data Structure Design:
+Member Class: Contains attributes such as name, grade, height, available time, and task count.
+
+###  Algorithm approach:
+1.  Read and parse the member file, create member objects, and store them in a container, e.g., std::vector<Member>.
+
+2.  Filter the members over 178 to create a vector<high Members> and delete them in vector<Member> 
+
+3.  Create a schedule, using a two-dimensional array or similar data structure to store the task assignments for each morning and afternoon of each day, e.g., std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));, where 5 represents 5 working days, and 2 represents morning and afternoon time slots each day.
+   
+4.  Implement the Greedy Algorithm.
+
+5.  Output the schedule, showing the task assignments for each morning and afternoon of each day.
+
+#  WHUT国旗队调度系统1.0
+该系统使用C++实现。
+
+##  源代码权限声明
+**仅限国旗队成员查看或修改**
+
+##  设计方法
+### 为了解决这个问题，我们可以采用贪心算法进行调度。贪心算法遵循在每一步选择局部最优解的策略，以达到全局最优解的目标。具体步骤如下：
+
+1. 读取成员文件并将成员信息存储在适当的数据结构中，比如使用一个成员类（FlagMember）来存储姓名、年级、身高等信息，并记录他们不可用的任务时间，同时将每个成员的任务计数初始化为0。
+
+2. 预处理成员信息并创建成员集合。
+
+3. 从成员集合中筛选出所有身高超过178的成员，创建一个高成员子集。然后，从原始成员集合中移除这个子集。这将使调度过程在东西任务执行时选择一个身高超过178的成员。
+
+4. **贪心算法**
+对于每个周一到周五的上午和下午，执行以下三次迭代：
+- 东西校区
+第一次迭代：对于每个周一到周五的上午和下午，指定一个满足时间条件且任务计数最少的高成员。
+第二次迭代：对于每个周一到周五的上午和下午，指定一个满足时间条件且任务计数最少的普通成员。
+第三次迭代：对于每个周一到周五的上午和下午，指定一个满足时间条件且任务计数最少的普通成员。
+*检查每个时间段的每个星期是否有大二或以上的成员可用（待实现）*
+
+结束时，将高成员子集整合到成员集合中。
+
+- 南湖校区
+相同，但没有身高限制。
+
+5. 输出最终的调度。
+
+### 数据结构设计：
+成员类：包含姓名、年级、身高、可用时间和任务计数等属性。
+
+### 算法步骤：
+1. 读取和解析成员文件，创建成员对象，并将它们存储在一个容器中，例如std::vector<Member>。
+
+2. 筛选身高超过178的成员，创建一个vector<high Members>，并从vector<Member>中删除这些成员。
+
+3. 创建一个调度表，使用二维数组或类似的数据结构来存储每天上午和下午的任务分配，例如std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));，其中5表示5个工作日，2表示每天上午和下午两个时间段。
+
+4. 实现贪心算法。
+
+5. 输出调度表，显示每天上午和下午的任务分配情况。
+
 
 ##  程序开发日志
 **7.26**
@@ -10,7 +95,7 @@
 1.创建了代码仓库
 
 2.总思路设计：
-核心数据结构：Member类设计 
+核心数据结构：FlagMember类设计 
 核心算法：贪心算法+排序算法
 
 3.国旗班内部沟通
