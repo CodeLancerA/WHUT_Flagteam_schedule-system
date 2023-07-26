@@ -37,13 +37,15 @@ Member Class: Contains attributes such as name, grade, height, available time, a
 ###  Algorithm approach:
 1.  Read and parse the member file, create member objects, and store them in a container, e.g., std::vector<Member>.
 
-2.  Filter the members over 178 to create a vector<high Members> and delete them in vector<Member> 
-
-3.  Create a schedule, using a two-dimensional array or similar data structure to store the task assignments for each morning and afternoon of each day, e.g., std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));, where 5 represents 5 working days, and 2 represents morning and afternoon time slots each day.
+2.  Iterated all member to set thier unvailable times.
    
-4.  Implement the Greedy Algorithm.
+3.  Filter the members over 178 to create a vector<high Members> and delete them in vector<Member> 
 
-5.  Output the schedule, showing the task assignments for each morning and afternoon of each day.
+4.  Create a schedule, using a two-dimensional array or similar data structure to store the task assignments for each morning and afternoon of each day, e.g., std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));, where 5 represents 5 working days, and 2 represents morning and afternoon time slots each day.
+   
+5.  Implement the Greedy Algorithm.
+
+6.  Output the schedule, showing the task assignments for each morning and afternoon of each day.
 
 ##   Devlog
 **7.26**
@@ -94,13 +96,15 @@ Member Class: Contains attributes such as name, grade, height, available time, a
 ### 算法步骤：
 1. 读取和解析成员文件，创建成员对象，并将它们存储在一个容器中，例如std::vector<Member>。
 
-2. 筛选身高超过178的成员，创建一个vector<high Members>，并从vector<Member>中删除这些成员。
+2. 遍历所有向量中的成员以设置他们的不可用时间
+   
+3. 筛选身高超过178的成员，创建一个vector<high Members>，并从vector<Member>中删除这些成员。
 
-3. 创建一个调度表，使用二维数组或类似的数据结构来存储每天上午和下午的任务分配，例如std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));，其中5表示5个工作日，2表示每天上午和下午两个时间段。
+4. 创建一个调度表，使用二维数组或类似的数据结构来存储每天上午和下午的任务分配，例如std::vector<std::vector<Member*>> schedule(5, std::vector<Member*>(2, nullptr));，其中5表示5个工作日，2表示每天上午和下午两个时间段。
 
-4. 实现贪心算法。
+5. 实现贪心算法。
 
-5. 输出调度表，显示每天上午和下午的任务分配情况。
+6. 输出调度表，显示每天上午和下午的任务分配情况。
 
 
 ##  开发日志
