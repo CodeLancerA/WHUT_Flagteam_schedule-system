@@ -16,6 +16,7 @@ This system is implemented in C++
 4.**Greedy Algorithm**
 For each morning and afternoon from Monday to Friday, perform the following three iterations:
 -East-West campus
+
 First Iteration: For each morning and afternoon of the week, assign one high member from the high member subset who meets the time conditions and has the least taskCount.
 
 Second Iteration: For each morning and afternoon of the week, assign one member from the member set who meets the time conditions and has the least taskCount.
@@ -43,6 +44,19 @@ Member Class: Contains attributes such as name, grade, height, available time, a
 4.  Implement the Greedy Algorithm.
 
 5.  Output the schedule, showing the task assignments for each morning and afternoon of each day.
+
+##   Devlog
+**7.26**
+1. create a repository.
+2. whole system sturcture design.
+3. class declaration and inplement
+4. communicate with team（maybe?）
+
+
+
+
+
+
 
 #  WHUT国旗队调度系统1.0
 该系统使用C++实现。
@@ -89,7 +103,7 @@ Member Class: Contains attributes such as name, grade, height, available time, a
 5. 输出调度表，显示每天上午和下午的任务分配情况。
 
 
-##  程序开发日志
+##  开发日志
 **7.26**
 
 1.创建了代码仓库
