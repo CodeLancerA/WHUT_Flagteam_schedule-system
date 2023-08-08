@@ -1,0 +1,43 @@
+LZH	1	179	32ew	41ew	12nj	21nj	22nj	41nj
+THN	1	189	11ew	32ew	11nj	22nj	41nj	52nj
+XHX1	1	182	12ew	31ew	12nj	31nj
+ZXY	1	168	11ew	21ew	41ew	51ew	22nj	42nj
+XHX2	1	182	12ew	31ew	12nj	31nj
+XPD	2	177	11ew	22ew	41ew	22nj	31nj	41nj	52nj
+MLG	1	176	11ew	11nj	12nj	42nj
+HBLR	2	179	21ew	22ew	31ew	42ew	51ew	52ew	21nj	41nj
+DBY	1	179	31ew	32ew	41ew	52ew	21nj	32nj	52nj
+XYX	2	178	12ew	42ew	21nj
+YPF	2	42ew	
+KZP	3	11ew	52ew
+CC	2	181	22ew	32ew	51ew	11nj	31nj	32nj
+WZ	1	170	12ew	21ew	31ew	41ew	42ew	51ew	12nj	42nj
+ZSM	2	170	
+ZZZ	2	175	11ew	32ew	52ew	31nj	42nj
+CZY	2	170	21ew	22ew	32ew	42ew	52ew	21nj	22nj	32nj	42nj
+ZZY	1	168	11ew	22ew	32ew	41ew	42ew	51ew	22nj
+HHF	2	175	11ew	32ew	51ew	32nj
+BRHJ	2	180	12ew	41ew	42ew	31nj	32nj
+JT	2	174	11ew	32ew	41ew	31nj	32nj	51nj
+MZK	1	186	12ew	51ew	21nj	22nj
+WX	1	184	32ew	21nj	42nj
+ZMZ	2	185	22ew	41ew	22nj	41nj
+ZFY	2	180	12ew	21ew	32ew	51ew	41nj	52nj
+SQY	2	164	32ew	22nj	31nj	41nj	51nj	52nj
+XYL	2	168	21ew	41ew	11nj	41nj
+WXF	2	170	31ew	42ew	21nj	42nj	51nj
+WYZ	2	184	11ew	41ew	11nj	31nj	51nj
+BQF	2	185	32ew	51ew	32nj	41nj	51nj	52nj
+FJY	1	175	11ew	21ew	41ew
+WJH	1	173	22ew	11nj	12nj	31nj	52nj
+HHY	1	178	11ew	21ew	31ew	32ew
+WF	1	183	21ew	31ew	32ew	41ew	31nj	42nj
+HLN	1	178	11ew	31ew	32ew	41ew	21nj	22nj
+AXZ	1	182	22ew	31ew	32ew	51ew	51nj
+LQZ	1	181	21ew	22ew	41ew	21nj	32nj	41nj	52nj
+MLG	1	175	22ew	51ew	12nj	21nj	41nj	42nj
+HZY	1	183	11ew	31ew	32ew	11nj	22nj	51nj
+HBH	1	185	12ew	21ew	31ew	41ew	52ew	21nj	32nj	41nj
+LLY	1	183	11ew	21ew	41ew	21nj	51nj
+SGT	1	185	32ew	41ew	11nj	21nj	22nj	51nj	52nj
+CRR	1	165	12ew	21ew	22ew	42ew	11nj	31nj	32nj	51nj
