@@ -28,7 +28,7 @@ def write_to_text_file(data_list, output_file):
 
 
 if __name__ == "__main__":
-    excel_file_path = "队员时间表2.xlsx"
+    excel_file_path = "队员时间表.xlsx"
     output_file_path = "../成员时间.txt"
 
     member_info_list = process_excel_file(excel_file_path)

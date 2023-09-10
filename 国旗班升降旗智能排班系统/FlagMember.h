@@ -27,6 +27,9 @@ public:
 	void addNJunavailableTime(int unabletime);
 	void addEWunavailableTime(int unabletime);
 
+	//整合成员不可用时间
+	void addNJunavailableTimes(const vector<int>& ewtimes);
+
 	//获取成员不可用时间
 	vector<int> getNJunavailableTimes() const;
 	vector<int> getEWunavailableTimes() const;

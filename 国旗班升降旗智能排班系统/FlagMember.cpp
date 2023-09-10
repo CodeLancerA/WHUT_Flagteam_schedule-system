@@ -18,7 +18,6 @@ int FlagMember::getHeight() const{
 void FlagMember::setNJunavailableTimes(const vector<int>& njtimes) {
 	NJunavailableTimes = njtimes;
 }
-
 void FlagMember::setEWunavailableTimes(const vector<int>& ewtimes) {
 	EWunavailableTimes = ewtimes;
 }
@@ -30,6 +29,15 @@ void FlagMember::addEWunavailableTime(int unabletime) {
 	EWunavailableTimes.push_back(unabletime);
 }
 
+void FlagMember::addNJunavailableTimes(const vector<int>& ewtimes) {
+	for (int ewtime : ewtimes) {
+		if (find(NJunavailableTimes.begin(), NJunavailableTimes.end(), ewtime) == NJunavailableTimes.end()) {
+			NJunavailableTimes.push_back(ewtime);
+		}
+	}
+}
+
+
 bool FlagMember::isNJtimeUnavailable(int njtime) const {
 	for (int t : NJunavailableTimes) {
 		if (t == njtime)
@@ -37,7 +45,6 @@ bool FlagMember::isNJtimeUnavailable(int njtime) const {
 	}
 	return false;
 }
-
 bool FlagMember::isEWtimeUnavailable(int ewtime) const {
 	for (int t : EWunavailableTimes) {
 		if (t == ewtime)

@@ -36,7 +36,7 @@ void greedySchedule(vector<vector<FlagMember*>>& schedule, vector<FlagMember>& m
         //1.筛选身高超过178的成员
         vector<FlagMember> highMembers;
         for (const auto& member : members) {
-            if (member.getHeight() > 178) {
+            if (member.getHeight() > 181) {
                 highMembers.push_back(member);
             }
         }
@@ -65,7 +65,7 @@ void greedySchedule(vector<vector<FlagMember*>>& schedule, vector<FlagMember>& m
                     selectedMember = timeable[0];
                     schedule[day][timeSlot * membersPerTimeSlot] = selectedMember;
                     selectedMember->increaseTaskCount();
-                    selectedMember->addEWunavailableTime((day + 1) * 10 + timeSlot + 1);
+                    selectedMember->addEWunavailableTime((day + 1) * 10 + timeSlot + 1);    //添加不可用时间
 
                     // 在这里也复制一个新的FlagMember对象，并更新任务计数
                     FlagMember newMember = *selectedMember;
@@ -194,6 +194,16 @@ void greedySchedule(vector<vector<FlagMember*>>& schedule, vector<FlagMember>& m
             }
         }
 
+        // 将 EW 成员的不可用时间添加到 NJ 成员的不可用时间中
+        for (FlagMember member : members) {
+            vector<int> ewUnavailableTimes = member.getEWunavailableTimes();
+            for (auto& othermember : members) {
+                if (othermember.getName() == member.getName()) {
+                    othermember.addNJunavailableTimes(ewUnavailableTimes);
+                }
+            }
+        }
+
         printSchedule(schedule, "EW");	//东西院
 
     }
@@ -298,7 +308,7 @@ void greedySchedule(vector<vector<FlagMember*>>& schedule, vector<FlagMember>& m
 
 
                     // 选择任务计数最少的成员插入到时间段中
-                    selectedMember = timeable[0];
+                        selectedMember = timeable[0];
                 }
                 else {
                     // 筛选出所有大二及以上的成员，放入elders向量
