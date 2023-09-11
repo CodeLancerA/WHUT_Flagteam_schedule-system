@@ -1,1 +1,2 @@
 D:\C++程序\国旗班升降旗智能排班系统\x64\Debug\国旗班升降旗智能排班系统.exe
+D:\C++程序\WHUT_Flagteam_schedule-system\国旗班升降旗智能排班系统\x64\Debug\国旗班升降旗智能排班系统.exe
