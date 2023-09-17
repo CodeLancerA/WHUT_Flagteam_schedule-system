@@ -36,7 +36,7 @@ void greedySchedule(vector<vector<FlagMember*>>& schedule, vector<FlagMember>& m
         //1.筛选身高超过178的成员
         vector<FlagMember> highMembers;
         for (const auto& member : members) {
-            if (member.getHeight() > 181) {
+            if (member.getHeight() > 180) {
                 highMembers.push_back(member);
             }
         }
