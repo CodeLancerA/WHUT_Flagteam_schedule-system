@@ -1,7 +1,2 @@
 ﻿  All fuction.cpp
-  FlagMember.cpp
-  main.cpp
-D:\C++程序\WHUT_Flagteam_schedule-system2.0\国旗班升降旗智能排班系统\main.cpp(36,41): warning C4101: “e”: 未引用的局部变量
-D:\C++程序\WHUT_Flagteam_schedule-system2.0\国旗班升降旗智能排班系统\main.cpp(46,41): warning C4101: “e”: 未引用的局部变量
-  正在生成代码...
   国旗班升降旗智能排班系统.vcxproj -> D:\C++程序\WHUT_Flagteam_schedule-system2.0\国旗班升降旗智能排班系统\x64\Debug\国旗班升降旗智能排班系统.exe

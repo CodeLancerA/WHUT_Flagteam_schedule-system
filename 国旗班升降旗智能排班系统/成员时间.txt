@@ -1,16 +1,19 @@
-杨鹏飞	3	178	12ew	21ew	22ew	41ew	42ew	12nj	21nj	22nj	41nj	42nj
-李欣	3	165	11ew	12ew	21ew	22ew	42ew	11nj	12nj	21nj	22nj	42nj
-况泽平	3	193	11ew	12ew	31ew	51ew	12nj
-王鑫	2	187	11ew	12ew	21ew	31ew	32ew	41ew	51ew	12nj	21nj	31nj	32nj
-曾思铭	3	170	11ew	22ew	41ew	51ew	52ew	11nj	22nj	41nj	51nj	52nj
-陈瑞睿	2	167	12ew	22ew	31ew	41ew	51ew	52ew	12nj	22nj	31nj	51nj	52nj
-张明智	3	186	
-武姿	2	170	21ew	31ew	41ew	42ew	51ew	42nj
-段柏宇	2	178	11ew	12ew	22ew	31ew	32ew	42ew	51ew	52ew	11nj	12nj	22nj	31nj	32nj	42nj	51nj	52nj
-闻锋	2	183	11ew	21ew	41ew	42ew	51ew	52ew	41nj	42nj	52nj
-徐培达	3	177	11ew	12ew	22ew	31ew	32ew	11nj	12nj	22nj	31nj
-李龙宇	2	182	11ew	12ew	32ew	42ew	52ew	11nj	12nj
-邵广泰	2	185	12ew	21ew	22ew	42ew	51ew	12nj	21nj	22nj	42nj	51nj
-李祺智	2	184	11ew	22ew	31ew	51ew	22nj
-空	2	188	
-王怡臻	3	183	22ew	22nj	31nj
+刘泽浩	2	179	21ew	51ew	21nj	51nj
+祝相忆	2	167	12ew	22ew	31ew	32ew	41ew	51ew
+程驰	3	183	11ew	12ew	21ew	31ew	32ew	11nj	12nj	21nj	32nj
+徐鸿轩	2	182	21ew	31ew	21nj	31nj
+吴晓芳	3	170	21ew	31ew	41ew	51ew
+辛亚旋	2	178	12ew	31ew	12nj	31nj
+尚婧怡	3	163	22ew	31ew	32ew	42ew	52ew	12nj	21nj	22nj	31nj	32nj	41nj	42nj	51nj	52nj
+安洵增	2	184	11ew	21ew	41ew	42ew	51ew	11nj	42nj
+徐银利	3	167	11ew	12ew	21ew	22ew	32ew	41ew	51ew	11nj	12nj	21nj	22nj	32nj	41nj	51nj
+朱子玥	2	168	11ew	21ew	22ew	32ew	41ew	52ew	11nj	21nj	22nj	32nj	41nj	52nj
+祝福银	2	183	11ew	31ew	41ew	42ew	31nj	41nj	42nj
+封佳洋	2	173	41ew	42ew	51ew	52ew	41nj	42nj	51nj	52nj
+江涛	3	178	21nj	31nj	41nj	51nj
+崔展言	3	170	11ew	12ew	21ew	31ew	32ew	41ew	51ew	11nj	12nj	21nj	31nj	32nj	41nj	51nj
+韩志远	2	183	11ew	21ew	32ew	41ew	51ew
+胡鸿宇	2	180	11ew	31ew	32ew	41ew	51ew	11nj	31nj	32nj	41nj	51nj
+白其凡	3	182	12ew	21ew	22ew	41ew	51ew	12nj	21nj	22nj
+布尔汗江	3	180	11ew	12ew	22ew	31ew	32ew	41ew	42ew	51ew	11nj	12nj	22nj	31nj	41nj	42nj	51nj
+空	2	180
